@@ -1,7 +1,9 @@
-site_name: My Docs
+site_name: ITのおべんきょう
 docs_dir: "docs"
 theme:
     name: material
+    palette:
+        primary: cyan
     language: ja
     icon:
         logo: material/school
