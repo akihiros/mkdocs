@@ -1,0 +1,55 @@
+site_name: My Docs
+docs_dir: "docs"
+theme:
+    name: material
+    language: ja
+    icon:
+        logo: material/school
+        repo: fontawesome/brands/git-alt
+    favicon: favicon.png  # 変更
+    features:
+        tabs: true
+extra_css:
+    - "//fonts.googleapis.com/earlyaccess/notosansjp.css"
+    - "//fonts.googleapis.com/css?family=Open+Sans:600,800"
+    - "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
+
+markdown_extensions:
+    - mdx_math:
+        enable_dollar_delimiter: true
+    - admonition
+    - fontawesome_markdown
+    - codehilite:
+        linenums: true
+        guess_lang: false
+        use_pygments: false
+        noclasses: true
+    - toc:
+        permalink: true
+
+extra_javascript: 
+  - http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+copyright: 'Copyright © 2022 - 2022'
+
+nav:
+    - はじめに: index.md
+    - 免責事項: privacy_plicy.md
+    - IPA(情報処理推進機構):
+        - 応用情報: docs/AP.md
+    - LPIC/LinuC:
+        - LPIC-1/LinuC-1: docs/lpic1.md
+        - LPIC-2/LinuC-2: docs/lpic2.md
+        - LPIC-3/LinuC-3: docs/lpic3.md
+    - OSS-DB:
+        - OSS-DB Silver: docs/oss-db-silver.md
+        - OSS-DB Gold: docs/oss-db-gold.md
+    - ORACLE MASTER:
+        - ORACLE MASTER Bronz: docs/oracle-master-bronz.md
+        - ORACLE MASTER Silver: docs/oracle-master-silver.md
+        - ORACLE MASTER Gold: docs/oracle-master-silver.md
+    - Cisco: docs/cisco.md
+    - AWS: docs/aws.md
+    - Azure: docs/azure.md
+    - GCP: docs/gcp.md
+
