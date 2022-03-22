@@ -36,11 +36,11 @@ copyright: 'Copyright © 2022 - 2022'
 
 nav:
     - はじめに: index.md
-    - 免責事項: privacy_plicy.md
+    - 免責事項: privacy_policy.md
     - IPA(情報処理推進機構):
-        - 応用情報: docs/AP.md
+        - 応用情報: AP.md
     - LPIC/LinuC:
-        - LPIC-1/LinuC-1: docs/lpic1.md
+        - LPIC-1/LinuC-1: lpic1.md
         # - LPIC-2/LinuC-2: docs/lpic2.md
         # - LPIC-3/LinuC-3: docs/lpic3.md
     # - OSS-DB:
